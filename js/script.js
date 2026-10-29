@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     
-    const API_URL = "https://borif-portfolio-api.onrender.com/api/contact";
+   const API_URL = "https://borif-portfolio-api1.onrender.com/api/contact";
 
     form.addEventListener("submit", async (event) => {
         event.preventDefault();
