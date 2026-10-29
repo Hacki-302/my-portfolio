@@ -460,8 +460,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    // Change this URL when you deploy your backend.
-    const API_URL = "http://localhost:3000/api/contact";
+    
+    const API_URL = "https://borif-portfolio-api.onrender.com/api/contact";
 
     form.addEventListener("submit", async (event) => {
         event.preventDefault();
